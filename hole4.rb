@@ -1,7 +1,6 @@
 x = 1
-loop do
+while x <=20
   x += 1
   next unless(x % 2) == 0
   puts x
-  break if x >= 20
 end
